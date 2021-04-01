@@ -13,3 +13,7 @@
 - git status：查看当前git状态
 
 ##### 1、版本回退
+- git log：查看提交历史
+- git reset --hard HEAD^ : 会退到上个版本
+- git reset --hard HEAD^^ : 会退到上两个版本
+- git reset --hard HEAD~100 : 会退到上一百个版本
