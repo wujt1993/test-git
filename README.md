@@ -42,9 +42,20 @@
 - git remote add origin git@github.com:michaelliao/learngit.git
 - git push -u origin master
 
-dadas
-dada
+##### 2、从远程仓库克隆项目
+- git clone git@github.com:michaelliao/gitskills.git
 
+#### 四、分支管理
+##### 1、创建与合并分支
+- git checkout -b dev （创建并切换分支） （git switch -c dev）
+	- 等同于
+		- git branch dev（创建分支）
+		- git checkout dev（切换分支）（git switch dev）
+- git branch （查看是所有分支）
+- git merge dev （将dev分支合并到当前分支）
+- git branch -d dev（删除当前分支）
 
-	
-	
+##### 2、解决冲突
+- Git用"<<<<<<<，=======，>>>>>>>"标记出不同分支的内容
+- 解决完冲突后，再提交
+
