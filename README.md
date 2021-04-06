@@ -52,3 +52,5 @@
 - git branch （查看是所有分支）
 - git merge dev （将dev分支合并到当前分支）
 - git branch -d dev（删除当前分支）
+
+##### 2、解决冲突
